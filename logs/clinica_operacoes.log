@@ -1,0 +1,26 @@
+[2026-06-15 01:32:02] [INFO] Criando estrutura da VetClínica em /app/clinica...
+[2026-06-15 01:32:02] [OK] Estrutura de diretórios da VetClínica criada com sucesso.
+[2026-06-15 01:32:02] [INFO] Árvore criada:
+[2026-06-15 01:32:46] [INFO] Gerando backup de /app/clinica...
+[2026-06-15 01:32:46] [OK] Backup criado: /app/clinica/backups/backup_clinica_2026-06-15_01-32.tar.gz (4.0K)
+[2026-06-15 01:32:46] [INFO] Backups disponíveis em /app/clinica/backups:
+[2026-06-15 01:33:07] [INFO] Limpando o diretório de destino /var/www/html...
+[2026-06-15 01:33:07] [INFO] Publicando o site da VetClínica...
+[2026-06-15 01:33:07] [OK] Arquivos copiados para /var/www/html.
+[2026-06-15 01:33:07] [OK] Validação OK: index.html publicado em /var/www/html.
+[2026-06-15 01:33:07] [INFO] Arquivos publicados:
+[2026-06-15 01:33:07] [INFO] Acesse o site da clínica em: http://localhost:8080
+[2026-06-15 01:33:52] [INFO] Coleta realizada em: 2026-06-15 01:33:52
+[2026-06-15 01:33:53] [OK] CPU em nível normal (1%)
+[2026-06-15 01:33:53] [OK] Memória em nível normal (34%)
+[2026-06-15 01:33:53] [OK] Disco em nível normal (66%)
+[2026-06-15 01:33:53] [OK] Apache em execução
+[2026-06-15 01:34:19] [OK] Grupo 'clinica_ops' criado.
+[2026-06-15 01:34:19] [OK] Usuário de sistema 'vet_user' criado no grupo 'clinica_ops'.
+[2026-06-15 01:34:19] [OK] Usuário de sistema 'recepcao_user' criado no grupo 'clinica_ops'.
+[2026-06-15 01:34:19] [INFO] Aplicando dono 'vet_user:clinica_ops' em /app/clinica...
+[2026-06-15 01:34:19] [INFO] Aplicando permissões 770 (dono+grupo) — dados sensíveis da clínica...
+[2026-06-15 01:34:19] [OK] Permissões aplicadas.
+[2026-06-15 01:34:19] [INFO] Permissões atuais em /app/clinica:
+[2026-06-15 01:34:39] [OK] Relatório gerado em: /app/clinica/logs/relatorio_execucao.txt
+[2026-06-15 01:34:39] [INFO] Prévia do relatório:

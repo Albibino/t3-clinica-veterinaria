@@ -1,0 +1,48 @@
+============================================================
+  RELATÓRIO OPERACIONAL — VetClínica
+============================================================
+Projeto : VetClínica
+Tema    : Clínica Veterinária
+Aluno   : William Wollert (Unidavi)
+Data    : 2026-06-15 01:34:39
+Host    : dd07c527385e
+
+----- ESPAÇO EM DISCO -----
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         453G  280G  150G  66% /
+
+----- USO DOS DIRETÓRIOS DA CLÍNICA -----
+4.0K	/app/clinica/agendamentos
+8.0K	/app/clinica/backups
+8.0K	/app/clinica/consultas
+8.0K	/app/clinica/funcionarios
+12K	/app/clinica/logs
+8.0K	/app/clinica/medicamentos
+8.0K	/app/clinica/pacientes
+4.0K	/app/clinica/relatorios
+
+----- STATUS DO APACHE -----
+Server version: Apache/2.4.52 (Ubuntu)
+Status: EM EXECUÇÃO
+
+----- ÚLTIMOS BACKUPS -----
+-rwxrwx--- 1 vet_user clinica_ops 708 Jun 15 01:32 /app/clinica/backups/backup_clinica_2026-06-15_01-32.tar.gz
+
+----- ÚLTIMOS LOGS -----
+-rwxrwx--- 1 vet_user clinica_ops 1.7K Jun 15 01:34 /app/clinica/logs/clinica_operacoes.log
+
+----- ARQUIVOS PUBLICADOS (APACHE) -----
+total 16K
+drwxr-xr-x 4 root root 4.0K Jun 15 01:33 assets
+-rw-r--r-- 1 root root 4.6K Jun 15 01:33 index.html
+-rw-r--r-- 1 root root 3.1K Jun 15 01:33 sobre.html
+
+----- USUÁRIOS E PERMISSÕES DA CLÍNICA -----
+Grupo clinica_ops:
+clinica_ops:x:1000:
+Permissões em /app/clinica:
+drwxrwx--- 10 vet_user clinica_ops 4096 Jun 15 01:32 /app/clinica
+
+============================================================
+  Fim do relatório — VetClínica
+============================================================
