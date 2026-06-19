@@ -15,7 +15,7 @@ export WEB_DIR
 export PROJETO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 export SOURCE_DIR="${PROJETO_DIR}/source"
 
-export LOG_FILE="${LOG_DIR}/clinica_operacoes.log"
+export LOG_FILE="${LOG_DIR}/clinica_operacoes_$(date +%Y-%m-%d).log"
 
 export C_VERDE='\033[0;32m'
 export C_VERMELHO='\033[0;31m'
